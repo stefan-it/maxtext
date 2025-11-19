@@ -213,6 +213,7 @@ type ModelName = Literal[
     "gpt-oss-120b",
     "llama4-17b-16e",
     "llama4-17b-128e",
+    "nano-german-slm"
 ]
 
 
