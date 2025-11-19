@@ -1652,6 +1652,8 @@ class MaxTextConfig(
         self.per_device_batch_size, self.expansion_factor_real_data, num_devices, self.gradient_accumulation_steps
     )
 
+    logger.info(f"Global Batch Size: {self.global_batch_size_to_train_on}")
+
     # Calculate final evaluation batch sizes.
     (
         self.global_batch_size_to_load_eval,
