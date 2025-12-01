@@ -78,6 +78,9 @@ def load_hf_model(model_size):
   elif model_size == "llama3.1-8b":
     config = AutoConfig.from_pretrained("meta-llama/Llama-3.1-8B")
     model = AutoModelForCausalLM.from_config(config)
+  elif model_size == "nano-german-slm":
+    config = AutoConfig.from_pretrained("german-maxtext-slms/nano-nanochat-tokenizer")
+    model = AutoModelForCausalLM.from_config(config)
   else:
     raise NotImplementedError
   return model
