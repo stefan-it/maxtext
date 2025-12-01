@@ -188,6 +188,13 @@ MODEL_PARAMS_DICT = {
         "base_mlp_dim": 16384,
         "num_experts": 8,
     },
+    "nano-german-slm": {
+        "num_layers": 12,
+        "num_heads": 12,
+        "num_kv_heads": 4,
+        "dims_per_head": 64,
+        "vocab": 65536,
+    },
 }
 
 llama3_variants = {"llama3.1", "llama3.3"}
