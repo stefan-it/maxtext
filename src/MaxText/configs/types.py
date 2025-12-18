@@ -200,6 +200,7 @@ type ModelName = Literal[
     "gemma3-12b",
     "gemma3-27b",
     "qwen3-0.6b",
+    "qwen3-0.6b-brotchen",
     "qwen3-4b",
     "qwen3-4b-thinking-2507",
     "qwen3-8b",
