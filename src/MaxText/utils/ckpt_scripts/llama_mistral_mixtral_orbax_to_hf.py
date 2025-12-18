@@ -81,6 +81,9 @@ def load_hf_model(model_size):
   elif model_size == "nano-german-slm":
     config = AutoConfig.from_pretrained("german-maxtext-slms/nano-nanochat-tokenizer")
     model = AutoModelForCausalLM.from_config(config)
+  elif model_size == "baguettotron-321m":
+    config = AutoConfig.from_pretrained("stefan-it/brotchen-lm-ablation-3-1")
+    model = AutoModelForCausalLM.from_config(config)
   else:
     raise NotImplementedError
   return model

@@ -195,6 +195,13 @@ MODEL_PARAMS_DICT = {
         "dims_per_head": 64,
         "vocab": 65536,
     },
+    "baguettotron-321m": {
+        "num_layers": 80,
+        "num_heads": 9,
+        "num_kv_heads": 3,
+        "dims_per_head": 64,
+        "vocab": 65536,
+    }
 }
 
 llama3_variants = {"llama3.1", "llama3.3"}
