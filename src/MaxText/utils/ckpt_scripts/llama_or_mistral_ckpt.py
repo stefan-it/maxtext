@@ -194,7 +194,7 @@ MODEL_PARAMS_DICT = {
         "num_kv_heads": 4,
         "dims_per_head": 64,
         "vocab": 65536,
-        "base_emb_dim": 768,
+        "base_emb_dim": 2048,
         "base_mlp_dim": 5632,
     }
 }
