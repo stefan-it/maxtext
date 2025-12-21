@@ -188,6 +188,15 @@ MODEL_PARAMS_DICT = {
         "base_mlp_dim": 16384,
         "num_experts": 8,
     },
+    "brotchen-lm-1b": {
+        "num_layer": 22,
+        "num_heads": 32,
+        "num_kv_heads": 4,
+        "dims_per_head": 64,
+        "vocab": 65536,
+        "base_emb_dim": 768,
+        "base_mlp_dim": 5632,
+    }
 }
 
 llama3_variants = {"llama3.1", "llama3.3"}
