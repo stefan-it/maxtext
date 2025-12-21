@@ -189,7 +189,7 @@ MODEL_PARAMS_DICT = {
         "num_experts": 8,
     },
     "brotchen-lm-1b": {
-        "num_layer": 22,
+        "num_layers": 22,
         "num_heads": 32,
         "num_kv_heads": 4,
         "dims_per_head": 64,
